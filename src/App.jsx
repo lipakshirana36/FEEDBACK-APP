@@ -16,7 +16,8 @@ function App() {
 
   return (
     <FeedbackProvider>
-      <Router>
+            <Router basename='/FEEDBACK-APP'>
+
         <Header text="FeedBack Application" />
 
         <div className="container">
